@@ -1,0 +1,56 @@
+{
+  "site": {
+    "title": "The Misread Machine",
+    "description": "An interactive thought-tool about expertise, trust, and how good work gets misread online."
+  },
+  "hero": {
+    "kicker": "The Misread Machine",
+    "headline": "Expertise can be deep and still be misread in seconds.",
+    "subhead": "A concept-led lab for testing how language shifts trust, clarity, and buyer interpretation.",
+    "cta": {
+      "label": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/mrryankeeler/"
+    }
+  },
+  "premise": {
+    "headline": "Why this exists",
+    "paragraphs": [
+      "Smart people often get flattened online. Nuance gets compressed into safe claims, clean frameworks, and generic language.",
+      "The result is a trust gap: your expertise may be real, but buyers cannot read it quickly.",
+      "This machine explores the gap between intent and interpretation, and how better signal design closes it."
+    ]
+  },
+  "principles": {
+    "headline": "What tends to move trust",
+    "items": [
+      {
+        "title": "Specificity",
+        "body": "Name who, what, and outcome. General claims feel interchangeable."
+      },
+      {
+        "title": "Proof",
+        "body": "Evidence beats assertion. Light proof often outperforms heavy rhetoric."
+      },
+      {
+        "title": "Clarity",
+        "body": "If buyers must decode your point, they usually move on."
+      },
+      {
+        "title": "Tension",
+        "body": "Useful contrast shows judgment. Flat consensus sounds generic."
+      },
+      {
+        "title": "Warmth",
+        "body": "Credibility lands faster when it feels human, not performative."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Most experts do not need more content.",
+    "body": "They need language that makes their depth legible to people who are scanning fast.",
+    "cta": {
+      "label": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/mrryankeeler/"
+    }
+  }
+}

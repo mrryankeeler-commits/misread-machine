@@ -1,0 +1,72 @@
+{
+  "comparisons": [
+    {
+      "id": "cmp-1",
+      "what_meant": "I help leadership teams make better strategic decisions.",
+      "what_heard": "Generic advisor language. Sounds like everyone else.",
+      "rewrite": "I help SaaS leadership teams cut strategy drift by tightening decision criteria before roadmap commitments.",
+      "annotation": "The rewrite earns trust by naming audience, failure mode, and concrete leverage point."
+    },
+    {
+      "id": "cmp-2",
+      "what_meant": "I post insights about growth and execution.",
+      "what_heard": "Thoughtful maybe, but low signal. Hard to know if this is lived experience.",
+      "rewrite": "I write about where growth plans fail in execution: ownership gaps, fuzzy metrics, and late decision loops.",
+      "annotation": "Specific failure patterns imply operating experience rather than borrowed ideas."
+    },
+    {
+      "id": "cmp-3",
+      "what_meant": "I work with founders on positioning.",
+      "what_heard": "Could mean messaging tweaks, branding, or vague coaching.",
+      "rewrite": "I help founders turn broad positioning into buyer-legible claims with proof, tension, and sharper boundaries.",
+      "annotation": "Clear mechanism plus constraints make the offer easier to trust quickly."
+    }
+  ],
+  "before_after": [
+    {
+      "id": "ba-1",
+      "before": "I help technical leaders communicate their value better.",
+      "after": "I help technical leaders translate deep systems work into buyer-facing language that survives a 10-second skim.",
+      "annotation": "Adds context, stakes, and a real evaluation condition."
+    },
+    {
+      "id": "ba-2",
+      "before": "I share practical advice for operators.",
+      "after": "I break down operator decisions where execution quietly dies: handoffs, assumptions, and priority debt.",
+      "annotation": "Moves from generic utility to pattern-level diagnosis."
+    },
+    {
+      "id": "ba-3",
+      "before": "I focus on clear communication.",
+      "after": "I design language that helps sophisticated buyers recognize real expertise before a sales call exists.",
+      "annotation": "Defines audience and job-to-be-done for clarity itself."
+    }
+  ],
+  "playground": {
+    "base_text": "I help experienced professionals communicate their expertise online.",
+    "presets": [
+      {
+        "id": "safe-vague",
+        "label": "Safe but vague",
+        "signals": {
+          "specificity": 20,
+          "proof": 15,
+          "clarity": 50,
+          "tension": 10,
+          "warmth": 45
+        }
+      },
+      {
+        "id": "credible-specific",
+        "label": "Credible and specific",
+        "signals": {
+          "specificity": 80,
+          "proof": 70,
+          "clarity": 85,
+          "tension": 55,
+          "warmth": 60
+        }
+      }
+    ]
+  }
+}
