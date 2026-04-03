@@ -1,0 +1,56 @@
+{
+  "site": {
+    "title": "The Story Psychology Machine",
+    "description": "An interactive thought-tool about storytelling psychology, curiosity gaps, and trust-building narrative signal."
+  },
+  "hero": {
+    "kicker": "The Story Psychology Machine",
+    "headline": "Great stories earn attention before they earn agreement.",
+    "subhead": "A compact lab for testing cliffhangers, curiosity gaps, and narrative trust signals in short-form writing.",
+    "cta": {
+      "label": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/mrryankeeler/"
+    }
+  },
+  "premise": {
+    "headline": "Why this exists",
+    "paragraphs": [
+      "Most writing loses people in the first two lines, not because the idea is weak, but because the opening gives no reason to continue.",
+      "Story psychology is about structured curiosity: enough tension to pull attention, enough clarity to keep trust.",
+      "This lab helps you compare weak and strong hooks, then tune the signals that make readers stay."
+    ]
+  },
+  "principles": {
+    "headline": "Signals that hold attention without clickbait",
+    "items": [
+      {
+        "title": "Curiosity Gap",
+        "body": "Open a loop the reader wants closed, without hiding the core topic."
+      },
+      {
+        "title": "Specificity",
+        "body": "Concrete detail beats vague drama."
+      },
+      {
+        "title": "Narrative Tension",
+        "body": "Show a real conflict, not artificial hype."
+      },
+      {
+        "title": "Payoff Promise",
+        "body": "Signal what the reader gets if they keep going."
+      },
+      {
+        "title": "Credibility",
+        "body": "Ground the hook in lived experience or observable truth."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Hooks are not manipulation.",
+    "body": "Used well, they are respect for attention: clear tension, real stakes, and a meaningful payoff.",
+    "cta": {
+      "label": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/mrryankeeler/"
+    }
+  }
+}

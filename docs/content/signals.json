@@ -1,0 +1,44 @@
+{
+  "signals": [
+    {
+      "id": "curiosity_gap",
+      "label": "Curiosity gap",
+      "description": "How strongly the opening creates an unanswered question.",
+      "min": 0,
+      "max": 100,
+      "step": 1
+    },
+    {
+      "id": "specificity",
+      "label": "Specificity",
+      "description": "How concrete and situational the wording feels.",
+      "min": 0,
+      "max": 100,
+      "step": 1
+    },
+    {
+      "id": "tension",
+      "label": "Narrative tension",
+      "description": "How visible the conflict or stakes are.",
+      "min": 0,
+      "max": 100,
+      "step": 1
+    },
+    {
+      "id": "payoff",
+      "label": "Payoff promise",
+      "description": "How clear the reader benefit feels if they keep reading.",
+      "min": 0,
+      "max": 100,
+      "step": 1
+    },
+    {
+      "id": "credibility",
+      "label": "Credibility",
+      "description": "How believable and grounded the opening sounds.",
+      "min": 0,
+      "max": 100,
+      "step": 1
+    }
+  ]
+}

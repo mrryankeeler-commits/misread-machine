@@ -1,0 +1,79 @@
+{
+  "comparisons": [
+    {
+      "id": "cmp-1",
+      "weak_hook": "I learned something important about content this week.",
+      "strong_hook": "I almost deleted a post that became my highest-converting one. The reason matters if your expertise gets ignored online.",
+      "annotation": "Micro-cliffhanger + clear stakes. It creates curiosity without hiding the topic."
+    },
+    {
+      "id": "cmp-2",
+      "weak_hook": "Most founders should think differently about storytelling.",
+      "strong_hook": "A founder told me, 'We have better product proof than competitors, but buyers still pick them.' The problem wasn't product. It was the first 12 words.",
+      "annotation": "Specific scene, direct quote, and a curiosity gap anchored in a real business problem."
+    },
+    {
+      "id": "cmp-3",
+      "weak_hook": "Here are three tips for better LinkedIn writing.",
+      "strong_hook": "Three lines can quietly kill trust on LinkedIn. If your post opens with any of these, readers leave before your expertise appears.",
+      "annotation": "Promises concrete payoff and names a consequence, which increases read-through intent."
+    }
+  ],
+  "before_after": [
+    {
+      "id": "ba-1",
+      "before": "I want to share a lesson from a client engagement.",
+      "after": "A client had world-class expertise and near-zero pipeline trust. One sentence in their intro was doing the damage.",
+      "annotation": "Turns a flat announcement into a story opening with tension and implied resolution."
+    },
+    {
+      "id": "ba-2",
+      "before": "People should avoid generic messaging.",
+      "after": "Generic messaging feels safe until a sophisticated buyer reads it and thinks, 'This could be anyone.'",
+      "annotation": "Moves from abstract advice to a believable buyer moment."
+    },
+    {
+      "id": "ba-3",
+      "before": "I have an idea about writing better hooks.",
+      "after": "Most hooks fail because they ask for attention before earning trust. Here's the structure that fixes that.",
+      "annotation": "Creates a curiosity gap while clearly signaling payoff."
+    }
+  ],
+  "playground": {
+    "presets": [
+      {
+        "id": "flat-safe",
+        "label": "Flat but safe",
+        "signals": {
+          "curiosity_gap": 20,
+          "specificity": 30,
+          "tension": 20,
+          "payoff": 35,
+          "credibility": 40
+        }
+      },
+      {
+        "id": "balanced-hook",
+        "label": "Balanced hook",
+        "signals": {
+          "curiosity_gap": 75,
+          "specificity": 70,
+          "tension": 65,
+          "payoff": 80,
+          "credibility": 70
+        }
+      },
+      {
+        "id": "too-hype",
+        "label": "Too hype",
+        "signals": {
+          "curiosity_gap": 95,
+          "specificity": 20,
+          "tension": 90,
+          "payoff": 30,
+          "credibility": 15
+        }
+      }
+    ]
+  }
+}
