@@ -2,44 +2,44 @@
   "comparisons": [
     {
       "id": "cmp-1",
-      "what_meant": "I help leadership teams make better strategic decisions.",
-      "what_heard": "Generic advisor language. Sounds like everyone else.",
-      "rewrite": "I help SaaS leadership teams cut strategy drift by tightening decision criteria before roadmap commitments.",
-      "annotation": "The rewrite earns trust by naming audience, failure mode, and concrete leverage point."
+      "what_meant": "I want to tease a lesson about pricing mistakes.",
+      "what_heard": "Clickbait headline with no real promise.",
+      "rewrite": "Most founders lose margin before the sale even starts. Tomorrow I'll show the one sentence that causes it.",
+      "annotation": "Good micro-cliffhanger: clear topic, concrete stake, and a promised reveal in the next step."
     },
     {
       "id": "cmp-2",
-      "what_meant": "I post insights about growth and execution.",
-      "what_heard": "Thoughtful maybe, but low signal. Hard to know if this is lived experience.",
-      "rewrite": "I write about where growth plans fail in execution: ownership gaps, fuzzy metrics, and late decision loops.",
-      "annotation": "Specific failure patterns imply operating experience rather than borrowed ideas."
+      "what_meant": "I want to open a story about a failed launch.",
+      "what_heard": "Drama for attention, unclear relevance.",
+      "rewrite": "We hit 10,000 signups in 48 hours—and still called the launch a failure. Here's the hidden metric that forced that decision.",
+      "annotation": "Good curiosity gap: tension is specific, and the audience knows exactly why the answer matters."
     },
     {
       "id": "cmp-3",
-      "what_meant": "I work with founders on positioning.",
-      "what_heard": "Could mean messaging tweaks, branding, or vague coaching.",
-      "rewrite": "I help founders turn broad positioning into buyer-legible claims with proof, tension, and sharper boundaries.",
-      "annotation": "Clear mechanism plus constraints make the offer easier to trust quickly."
+      "what_meant": "I want readers to stay for a full case study.",
+      "what_heard": "Long post warning, likely skimmable and generic.",
+      "rewrite": "A client said one sentence in week 1 that predicted the entire project outcome. Keep it in mind while you read this case.",
+      "annotation": "Narrative cliffhanger: plants a question early so readers keep scanning for resolution."
     }
   ],
   "before_after": [
     {
       "id": "ba-1",
-      "before": "I help technical leaders communicate their value better.",
-      "after": "I help technical leaders translate deep systems work into buyer-facing language that survives a 10-second skim.",
-      "annotation": "Adds context, stakes, and a real evaluation condition."
+      "before": "You won't believe what happened next.",
+      "after": "At 4:52 PM the deal looked done. At 4:53 PM one reply changed the contract terms.",
+      "annotation": "Bad is empty hype. Good adds a concrete scene so curiosity feels earned."
     },
     {
       "id": "ba-2",
-      "before": "I share practical advice for operators.",
-      "after": "I break down operator decisions where execution quietly dies: handoffs, assumptions, and priority debt.",
-      "annotation": "Moves from generic utility to pattern-level diagnosis."
+      "before": "Here's a lesson on storytelling.",
+      "after": "If your opening line does not create a question, your reader has no reason to keep going. Try this 3-part hook.",
+      "annotation": "Good framing states the rule, the consequence, and a usable next step."
     },
     {
       "id": "ba-3",
-      "before": "I focus on clear communication.",
-      "after": "I design language that helps sophisticated buyers recognize real expertise before a sales call exists.",
-      "annotation": "Defines audience and job-to-be-done for clarity itself."
+      "before": "This founder made a big mistake.",
+      "after": "She ignored one customer email for 11 days. That delay cost a six-figure renewal.",
+      "annotation": "Specific stakes beat vague drama; readers understand why they should care."
     }
   ],
   "playground": {

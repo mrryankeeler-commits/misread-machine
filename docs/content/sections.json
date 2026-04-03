@@ -1,12 +1,12 @@
 {
   "site": {
-    "title": "The Misread Machine",
-    "description": "An interactive thought-tool about expertise, trust, and how good work gets misread online."
+    "title": "Story Psychology Machine",
+    "description": "An interactive thought-tool for story psychology, curiosity gaps, and trust-building hooks."
   },
   "hero": {
-    "kicker": "The Misread Machine",
-    "headline": "Expertise can be deep and still be misread in seconds.",
-    "subhead": "A concept-led lab for testing how language shifts trust, clarity, and buyer interpretation.",
+    "kicker": "Story Psychology Machine",
+    "headline": "Strong stories keep attention by design, not by accident.",
+    "subhead": "A concept-led lab for testing cliffhangers, curiosity gaps, and trust signals in short-form writing.",
     "cta": {
       "label": "Connect with me on LinkedIn",
       "url": "https://www.linkedin.com/in/mrryankeeler/"
@@ -15,39 +15,39 @@
   "premise": {
     "headline": "Why this exists",
     "paragraphs": [
-      "Smart people often get flattened online. Nuance gets compressed into safe claims, clean frameworks, and generic language.",
-      "The result is a trust gap: your expertise may be real, but buyers cannot read it quickly.",
-      "This machine explores the gap between intent and interpretation, and how better signal design closes it."
+      "Most posts lose readers in the first two lines because the tension is vague or overhyped.",
+      "Good story psychology balances curiosity with clarity: enough open loop to continue, enough context to trust.",
+      "This machine helps you test language so your hooks feel compelling, useful, and believable."
     ]
   },
   "principles": {
-    "headline": "What tends to move trust",
+    "headline": "What tends to hold attention",
     "items": [
       {
-        "title": "Specificity",
-        "body": "Name who, what, and outcome. General claims feel interchangeable."
+        "title": "Specific setup",
+        "body": "Ground the reader in a scene, stake, or moment before opening the loop."
       },
       {
-        "title": "Proof",
-        "body": "Evidence beats assertion. Light proof often outperforms heavy rhetoric."
+        "title": "Credible tension",
+        "body": "Raise a meaningful question without slipping into empty drama."
       },
       {
-        "title": "Clarity",
-        "body": "If buyers must decode your point, they usually move on."
+        "title": "Clear promise",
+        "body": "Signal what kind of payoff the reader will get if they continue."
       },
       {
-        "title": "Tension",
-        "body": "Useful contrast shows judgment. Flat consensus sounds generic."
+        "title": "Useful reveal",
+        "body": "Close loops with insight readers can apply, not just surprising details."
       },
       {
-        "title": "Warmth",
-        "body": "Credibility lands faster when it feels human, not performative."
+        "title": "Human tone",
+        "body": "Sound like a thoughtful guide, not a sensational headline factory."
       }
     ]
   },
   "closing": {
-    "headline": "Most experts do not need more content.",
-    "body": "They need language that makes their depth legible to people who are scanning fast.",
+    "headline": "Attention is earned with precision.",
+    "body": "Open loops create momentum; clear payoffs create trust. You need both.",
     "cta": {
       "label": "Connect with me on LinkedIn",
       "url": "https://www.linkedin.com/in/mrryankeeler/"
