@@ -119,9 +119,9 @@ function renderComparisons(comparisons) {
       (item, index) => `
       <article class="card">
         <h3>Example ${index + 1}</h3>
-        <p><span class="label">What you meant</span>${escapeHtml(item.what_meant)}</p>
-        <p><span class="label">What they heard</span>${escapeHtml(item.what_heard)}</p>
-        <p><span class="label">Rewrite</span>${escapeHtml(item.rewrite)}</p>
+        <p><span class="label">Technique</span>${escapeHtml(item.technique)}</p>
+        <p><span class="label">Weak example</span>${escapeHtml(item.bad_example)}</p>
+        <p><span class="label">Strong example</span>${escapeHtml(item.good_example)}</p>
         <p class="annotation">${escapeHtml(item.annotation)}</p>
       </article>
     `

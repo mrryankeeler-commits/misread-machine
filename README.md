@@ -13,7 +13,7 @@ An interactive thought-tool for story psychology, curiosity gaps, and trust-buil
 All editable content lives in `docs/content`:
 
 - `sections.json`: Hero copy, premise, principles, closing CTA text.
-- `examples.json`: Storytelling examples (intent vs reaction, good vs weak hooks).
+- `examples.json`: Storytelling examples (cliffhangers, curiosity gaps, and hook rewrites).
 - `signals.json`: Slider labels and definitions for the interpretation playground.
 
 ## Local preview
@@ -27,21 +27,27 @@ python3 -m http.server 8000
 
 Then visit `http://localhost:8000/docs/`.
 
-## Cloudflare preview (no coding experience version)
+## Cloudflare preview (beginner walkthrough, GitHub-only)
 
-If your code is on GitHub and you want a shareable preview URL from Cloudflare:
+If you are editing in GitHub's web UI (no local coding setup), use this flow:
 
-1. **Create a Cloudflare account** at https://dash.cloudflare.com/ (free plan is fine).
-2. In Cloudflare, go to **Workers & Pages** → **Create** → **Pages** → **Connect to Git**.
-3. Choose **GitHub**, authorize Cloudflare, then select this repository.
-4. Use these build settings:
+1. **Create a Cloudflare account** at https://dash.cloudflare.com/ (free is fine).
+2. Open **Workers & Pages** → **Create application** → **Pages** → **Connect to Git**.
+3. Pick **GitHub**, approve access, and select your repository.
+4. In build settings, use:
    - **Framework preset:** `None`
-   - **Build command:** *(leave empty)*
+   - **Build command:** leave blank
    - **Build output directory:** `docs`
 5. Click **Save and Deploy**.
-6. Cloudflare gives you a URL like `https://your-project.pages.dev`.
-7. Any future push to GitHub auto-deploys a new preview.
+6. Wait for deployment to finish, then open your site at `https://<project-name>.pages.dev`.
 
-### Optional: Preview before merging
+### How to preview updates from GitHub
 
-If you open pull requests in GitHub, Cloudflare Pages can also create a preview link for each PR (if Preview deployments are enabled in project settings).
+1. In GitHub, edit files (for this project, most copy is in `docs/content/*.json`).
+2. Commit changes to a new branch.
+3. Open a pull request.
+4. In Cloudflare Pages, open your project → **Deployments**.
+5. Click the newest **Preview** deployment tied to your branch/PR.
+6. Share that preview URL for feedback before merging.
+
+After merge to your production branch, Cloudflare automatically publishes the live version.
