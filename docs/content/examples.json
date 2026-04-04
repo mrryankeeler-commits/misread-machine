@@ -1,72 +1,45 @@
 {
   "comparisons": [
     {
-      "id": "cmp-1",
-      "what_meant": "I want to tease a lesson about pricing mistakes.",
-      "what_heard": "Clickbait headline with no real promise.",
-      "rewrite": "Most founders lose margin before the sale even starts. Tomorrow I'll show the one sentence that causes it.",
-      "annotation": "Good micro-cliffhanger: clear topic, concrete stake, and a promised reveal in the next step."
+      "id": "cmp-cliffhanger",
+      "technique": "Cliffhanger opening",
+      "bad_example": "Our launch went badly. Read on to find out why.",
+      "good_example": "At 9:04 AM we thought launch day was over. At 9:11 AM one customer email changed our whole roadmap.",
+      "annotation": "How to use it: start with a specific moment, then pause before the turning point. Promise a real lesson, not just drama."
     },
     {
-      "id": "cmp-2",
-      "what_meant": "I want to open a story about a failed launch.",
-      "what_heard": "Drama for attention, unclear relevance.",
-      "rewrite": "We hit 10,000 signups in 48 hours—and still called the launch a failure. Here's the hidden metric that forced that decision.",
-      "annotation": "Good curiosity gap: tension is specific, and the audience knows exactly why the answer matters."
+      "id": "cmp-micro",
+      "technique": "Micro-cliffhanger transition",
+      "bad_example": "Then things got interesting.",
+      "good_example": "Then the buyer asked one question we were not prepared for.",
+      "annotation": "How to use it: place tiny open loops between paragraphs. Keep each one concrete so readers naturally continue."
     },
     {
-      "id": "cmp-3",
-      "what_meant": "I want readers to stay for a full case study.",
-      "what_heard": "Long post warning, likely skimmable and generic.",
-      "rewrite": "A client said one sentence in week 1 that predicted the entire project outcome. Keep it in mind while you read this case.",
-      "annotation": "Narrative cliffhanger: plants a question early so readers keep scanning for resolution."
+      "id": "cmp-curiosity",
+      "technique": "Curiosity gap with payoff",
+      "bad_example": "Most creators get this wrong, and the answer will shock you.",
+      "good_example": "Most creators lose readers in line two. The fix is not better adjectives—it is one structural move.",
+      "annotation": "How to use it: name a real problem, hint at a counterintuitive solution, then close the loop quickly with a practical takeaway."
     }
   ],
   "before_after": [
     {
       "id": "ba-1",
-      "before": "You won't believe what happened next.",
-      "after": "At 4:52 PM the deal looked done. At 4:53 PM one reply changed the contract terms.",
-      "annotation": "Bad is empty hype. Good adds a concrete scene so curiosity feels earned."
+      "before": "I have a crazy story for you.",
+      "after": "He almost signed at noon. At 12:07 PM he paused on one sentence in the proposal.",
+      "annotation": "Better because it creates a scene with time and stakes."
     },
     {
       "id": "ba-2",
-      "before": "Here's a lesson on storytelling.",
-      "after": "If your opening line does not create a question, your reader has no reason to keep going. Try this 3-part hook.",
-      "annotation": "Good framing states the rule, the consequence, and a usable next step."
+      "before": "Use curiosity in your content.",
+      "after": "Open one loop per section, then close it within 3-5 lines so trust goes up instead of down.",
+      "annotation": "Better because it explains exactly how to apply curiosity."
     },
     {
       "id": "ba-3",
-      "before": "This founder made a big mistake.",
-      "after": "She ignored one customer email for 11 days. That delay cost a six-figure renewal.",
-      "annotation": "Specific stakes beat vague drama; readers understand why they should care."
+      "before": "This is the biggest storytelling mistake.",
+      "after": "If the tension is vague, readers assume the payoff will be vague too—and they bounce.",
+      "annotation": "Better because it connects the hook to reader behavior."
     }
-  ],
-  "playground": {
-    "base_text": "I help experienced professionals communicate their expertise online.",
-    "presets": [
-      {
-        "id": "safe-vague",
-        "label": "Safe but vague",
-        "signals": {
-          "specificity": 20,
-          "proof": 15,
-          "clarity": 50,
-          "tension": 10,
-          "warmth": 45
-        }
-      },
-      {
-        "id": "credible-specific",
-        "label": "Credible and specific",
-        "signals": {
-          "specificity": 80,
-          "proof": 70,
-          "clarity": 85,
-          "tension": 55,
-          "warmth": 60
-        }
-      }
-    ]
-  }
+  ]
 }
