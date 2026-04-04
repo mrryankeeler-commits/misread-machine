@@ -14,7 +14,6 @@ All editable content lives in `docs/content`:
 
 - `sections.json`: Hero copy, premise, principles, closing CTA text.
 - `examples.json`: Storytelling examples (cliffhangers, curiosity gaps, and hook rewrites).
-- `signals.json`: Slider labels and definitions for the interpretation playground.
 
 ## Local preview
 

@@ -41,32 +41,5 @@
       "after": "If the tension is vague, readers assume the payoff will be vague too—and they bounce.",
       "annotation": "Better because it connects the hook to reader behavior."
     }
-  ],
-  "playground": {
-    "base_text": "I help experienced professionals communicate their expertise online.",
-    "presets": [
-      {
-        "id": "safe-vague",
-        "label": "Safe but vague",
-        "signals": {
-          "specificity": 20,
-          "proof": 15,
-          "clarity": 50,
-          "tension": 10,
-          "warmth": 45
-        }
-      },
-      {
-        "id": "credible-specific",
-        "label": "Credible and specific",
-        "signals": {
-          "specificity": 80,
-          "proof": 70,
-          "clarity": 85,
-          "tension": 55,
-          "warmth": 60
-        }
-      }
-    ]
-  }
+  ]
 }
